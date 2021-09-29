@@ -8,7 +8,7 @@ import React, {Component} from 'react';
 import {bindActionCreators} from 'redux';
 
 import {connect} from 'react-redux';
-import DefaultComponentClass from '../component/DefaultComponentClass';
+import DefaultComponent from '../component/DefaultComponentClass';
 
 import * as defaultActions from '../store/actions/defaultAction';
 
@@ -23,7 +23,7 @@ class DefaultContainer extends Component {
 	render() {
 		return (
 			<div className="App">
-				<DefaultComponentClass
+				<DefaultComponent
 					onEventListener={this.onEventListener}
 				/>
 			</div>

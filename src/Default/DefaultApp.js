@@ -6,7 +6,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-import DefaultContainer from './container/DefaultContainer';
+import DefaultContainer from './container/DefaultContainerFunc';
 
 import configureStore from './store';
 import {Provider} from 'react-redux';

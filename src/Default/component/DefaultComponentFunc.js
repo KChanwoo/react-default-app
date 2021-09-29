@@ -21,5 +21,3 @@ function DefaultComponentFunc({onEventListener}) {
 }
 
 export default DefaultComponentFunc;
-
-export default {DefaultComponentFunc, DefaultComponentFunc2}
